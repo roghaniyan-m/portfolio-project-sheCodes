@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu:wght@500&display=swap");
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  background-color: rgb(138, 43, 226, 0.2);
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: #8a2be2;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+}
