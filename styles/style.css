@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu:wght@500&display=swap");
 :root {
   --primary-color: #8a2be2;
-  --secondary-color: rgb(138, 43, 226, 0.2);
+  --secondary-color: #8a2be233;
   --heading-font: "Ubuntu", sans-serif;
   --public-font: "Poppins", sans-serif;
+  --headding-color: #333;
+  --light-color: #f9f7fe;
 }
 h1,
 h2,
@@ -22,12 +24,22 @@ h2 {
   line-height: 2;
 }
 h3 {
+  font-size: 46px;
+}
+h4 {
   font-size: 36px;
+}
+h5 {
+  font-size: 20px;
+}
+.site-body {
+  padding: 0px;
 }
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 100px 20px;
+  padding: 100px 0px;
+  margin: 0px;
 }
 
 p {
@@ -57,11 +69,84 @@ p {
   }
 }
 .my-works {
-  padding: 25px 20px;
+  padding: 25px 0px;
 }
-.h3-container {
-}
+
 .my-works h3 {
   border-bottom: 5px solid var(--secondary-color);
   padding: 10px 5px;
+  font-weight: bold;
+  color: var(--headding-color);
+}
+.my-works h4 {
+  font-weight: bold;
+  color: var(--headding-color);
+}
+.img-bg {
+  padding: 5px;
+  background-color: var(--light-color);
+}
+.img-bg img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.descripton {
+  padding: 30px 15px;
+}
+.descripton p {
+  line-height: 2;
+}
+.descripton a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 2px solid var(--secondary-color);
+  transition: border-color 1s;
+}
+.descripton a:hover {
+  transition: border-color 1s;
+  border-color: var(--primary-color);
+}
+.descripton a i {
+  font-size: 13px;
+}
+footer {
+  margin-top: 20px;
+  background-color: var(--secondary-color);
+  padding: 30px 10px;
+}
+footer h5 {
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+footer .contact {
+  color: #272044;
+}
+footer .contact .btn-link {
+  margin-right: 10px;
+  padding: 0px;
+  text-decoration: none;
+  color: #272044;
+}
+footer .contact .btn-link:hover {
+  color: var(--primary-color);
+}
+footer .contact i {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 540px) {
+  h1 {
+    font-size: 56px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  .descripton {
+    padding: 15px 10px;
+  }
 }
