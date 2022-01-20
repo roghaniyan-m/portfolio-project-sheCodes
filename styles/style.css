@@ -177,6 +177,12 @@ footer .contact i {
 .my-works h4 {
   font-size: 24px;
 }
+.content a {
+  color: var(--primary-color);
+}
+.content a:hover {
+  color: var(--secondary-color);
+}
 @media screen and (max-width: 990px) {
   .content {
     text-align: center;
