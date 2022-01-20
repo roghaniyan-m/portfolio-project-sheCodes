@@ -49,20 +49,7 @@ a {
   padding: 100px 0px;
   margin: 0px;
 }
-.branding-btn {
-  background-color: var(--primary-color);
-  color: #fff;
-  border: 1px solid var(--primary-color);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
-    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-  padding: 10px 15px;
-  translate: background-color 1s;
-}
-.branding-btn:hover {
-  background-color: #fff;
-  color: var(--primary-color);
-  border-color: var(--primary-color);
-}
+
 a.navbar-brand {
   color: var(--primary-color) !important;
   font-weight: bold;
@@ -182,6 +169,20 @@ footer .contact i {
 }
 .content a:hover {
   color: var(--secondary-color);
+}
+a.branding-btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: 1px solid var(--primary-color);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  padding: 10px 15px;
+  translate: background-color 1s;
+}
+a.branding-btn:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 @media screen and (max-width: 990px) {
   .content {
